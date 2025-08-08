@@ -29,6 +29,7 @@ public class QuestionService {
             Scanner scanner = new Scanner(System.in);
             System.out.print("Answer: ");
             selection[i++] = scanner.nextLine();
+            System.out.println();
         }
 
         System.out.println("-------------------");
