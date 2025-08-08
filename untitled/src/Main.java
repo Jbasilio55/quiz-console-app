@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         QuestionService service = new QuestionService();
-        service.displayAllQuestions();
+        service.playQuiz();
+        service.printScore();
     }
 }
